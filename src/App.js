@@ -11,6 +11,7 @@ function App() {
       <p>Sort by Year / Name / Group / City / Country</p>
       <p>Capability to upload pictures</p>
       <p>Capability to login email/authentication</p>
+      <p>Polymer 3.0 and web components</p>
     
     </div>
   );
