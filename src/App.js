@@ -4,29 +4,14 @@ import './App.css';
 import ImageToggle from './components/image-tggle/ImageToggle';
 import Events from './components/events/Events';
 import Links from './components/links/Links';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import Todo from './components/todo/Todo';
+// import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
     <div className="">
-      <div className="jumbotron">
-
-      <h3>LIKI</h3>
-      <p>All LIKI classmates with pictures</p>
-      <p>Display current picture initially - upon hover display old 1984 pictures</p>
-      <p>Sort by Year / Name / Group / City / Country</p>
-      <p>Capability to upload pictures</p>
-      <p>Capability to login email/authentication</p>
-      <p>Polymer 3.0 and web components</p>
-      <p>Google Drive connection</p>
-      <p>Mongose online DB</p>
-      <p>Admin?</p>
-      <p>Search with mongoDB</p>
-      <p>Relay GraphQL</p>
-      <p>Debounce</p>
-      </div>
-
-      <div>
+      <Todo />
+      <div className="well">
         <Links />
 
         <ImageToggle
