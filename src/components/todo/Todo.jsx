@@ -38,14 +38,14 @@ export default class Todo extends Component {
         <p>Google Drive connection</p>
         <p>Mongose online DB</p>
         <p>Admin?</p>
-        <Alert type={"alert-primary"} />
-        <Alert type={"alert-secondary"} />
-        <Alert type={"alert-success"} />
-        <Alert type={"alert-danger"} />
-        <Alert type={"alert-warning"} />
-        <Alert type={"alert-info"} />
-        <Alert type={"alert-light"} />
-        <Alert type={"alert-dark"} />
+        <Alert type={"alert-primary"} title={"Sorting"} />
+        <Alert type={"alert-secondary"} title={"Upload"} />
+        <Alert type={"alert-success"} title={"email/authentication"} />
+        <Alert type={"alert-danger"} title={"Polymer 3.0 and web components"} />
+        <Alert type={"alert-warning"} title={"Google Drive connection"} />
+        <Alert type={"alert-info"} title={"Mongose online DB"} />
+        <Alert type={"alert-light"} title={"Admin"} />
+        <Alert type={"alert-dark"} title={"Title"} />
         <p>Search with mongoDB</p>
         <p>Relay GraphQL</p>
         <p>Debounce</p>

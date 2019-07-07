@@ -9,7 +9,7 @@ import Todo from './components/todo/Todo';
 
 function App() {
   return (
-    <div className="">
+    <div className="container">
       <Todo />
       <div className="well">
         <Links />

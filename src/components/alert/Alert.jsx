@@ -8,7 +8,7 @@ export default class Alert extends Component {
         className={`alert ${this.props.type} alert-dismissible fade show`}
         role="alert"
       >
-        <strong>Context</strong> 
+        <strong>{`${this.props.title}`}</strong> 
 
         <button
           type="button"
