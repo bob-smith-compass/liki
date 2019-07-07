@@ -9,7 +9,7 @@ import Todo from './components/todo/Todo';
 /**
  * Context API
  */
-const ConfigContext = React.createContext(); // Hookes will be used to consume this context
+export const ConfigContext = React.createContext(); // Hookes will be used to consume this context
 const configValues = {
   name: 'David Shams',
   primaryImage: 'https://images.unsplash.com/photo-1562337589-136d8a7dd9dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60',
@@ -21,7 +21,7 @@ function App() {
   return (
     <ConfigContext.Provider values={configValues}>
       <div className="container">
-        <Todo />
+        <Todo values={configValues}/>
         <div className="well">
           <Links />
           <ImageToggle

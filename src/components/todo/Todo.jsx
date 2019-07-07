@@ -1,9 +1,10 @@
-import React, { Component } from "react";
+import React, { Component, useContext } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Alert from "../alert/Alert";
 import $ from "jquery/dist/jquery";
 // import "popper";
 // import "bootstrap/dist/js/bootstrap";
+import {ConfigContext} from './App.jsx'
 
 export default class Todo extends Component {
   render() {
@@ -46,6 +47,7 @@ export default class Todo extends Component {
         <Alert type={"alert-info"} title={"Mongose online DB"} />
         <Alert type={"alert-light"} title={"Admin"} />
         <Alert type={"alert-dark"} title={"Internationaliztion"} />
+        {/* <Alert type={"alert-info"} title={values.name} /> */}
         <p>Search with mongoDB</p>
         <p>Relay GraphQL</p>
         <p>Debounce</p>
