@@ -1,0 +1,12 @@
+p.ex3 {
+    border: 1px solid black;
+    outline-style: outset;
+    outline-color: yellow;
+  }
+summary:focus {
+    outline-color: yellow;
+    outline-offset: 1em;
+    outline-width: 50px;
+    /* outline-style: inset; */
+    outline-style: outset;
+}
