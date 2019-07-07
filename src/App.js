@@ -6,6 +6,11 @@ import Events from './components/events/Events';
 import Links from './components/links/Links';
 import Todo from './components/todo/Todo';
 // import 'bootstrap/dist/css/bootstrap.min.css'
+/**
+ * Context API
+ */
+const ConfigContext = React.createContext();
+
 
 function App() {
   return (

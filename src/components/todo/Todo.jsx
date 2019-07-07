@@ -45,7 +45,7 @@ export default class Todo extends Component {
         <Alert type={"alert-warning"} title={"Google Drive connection"} />
         <Alert type={"alert-info"} title={"Mongose online DB"} />
         <Alert type={"alert-light"} title={"Admin"} />
-        <Alert type={"alert-dark"} title={"Title"} />
+        <Alert type={"alert-dark"} title={"Internationaliztion"} />
         <p>Search with mongoDB</p>
         <p>Relay GraphQL</p>
         <p>Debounce</p>
