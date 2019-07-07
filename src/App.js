@@ -13,7 +13,6 @@ function App() {
       <Todo />
       <div className="well">
         <Links />
-
         <ImageToggle
           primaryImage={'https://images.unsplash.com/photo-1562337589-136d8a7dd9dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'}
           secondaryImage={'https://images.unsplash.com/photo-1562351768-f68650f3ec54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'}
@@ -22,7 +21,6 @@ function App() {
           <span className="LrzXr kno-fv">274 m/s<sup>2</sup>; 28 × Earth</span>
         </div>
         <Events />
-
       </div>
     </div>
   );
