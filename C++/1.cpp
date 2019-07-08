@@ -19,6 +19,13 @@ int main() {
     cout << f << endl;
     cout << f/j << endl;
 
+    f = 9/5;
+    cout << f << endl; // 1!!
+
+
+    // auto au = 9/5;
+    // cout << au << endl; // 1!!
+
 
     return 0;
 }
